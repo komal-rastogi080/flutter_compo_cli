@@ -1,10 +1,22 @@
-
 {
   "components": {
-    "sidebar": {
-      "path": "components/sidebar",
-      "files": ["sidebar.dart", "constants.dart"],
-      "description": "Responsive Flutter sidebar"
+    "sidebar01": {
+      "path": "components/sidebar01",
+      "files": [
+        "container.dart",
+        "drawer.dart",
+        "item.dart",
+        "theme.dart"
+      ],
+      "description": "Responsive sidebar with drawer + theme toggle"
+    },
+    "sidebar02": {
+      "path": "components/sidebar02",
+      "files": [
+        "sidebar.dart",
+        "constants.dart"
+      ],
+      "description": "NavigationRail-based desktop sidebar"
     }
   }
 }
